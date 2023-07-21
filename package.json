@@ -1,0 +1,32 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "NodeJS REST API to track expenses",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recalderon93/expense-tracker-backend.git"
+  },
+  "author": "Rafael Calderon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/recalderon93/expense-tracker-backend/issues"
+  },
+  "homepage": "https://github.com/recalderon93/expense-tracker-backend#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "typescript": "^5.1.6"
+  }
+}
